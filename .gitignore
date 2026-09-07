@@ -1,0 +1,20 @@
+# Local API keys (image generation / TTS). Copy from the skill's .env.example.
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated decks and run artifacts under the working folder
+/projects/*
+!/projects/.gitkeep
+
+# Symlink created by scripts/install.sh so the skill's derived projects root
+# points at the repo-root working folder
+/.cursor/projects
+
+# OS noise
+.DS_Store
+Thumbs.db
