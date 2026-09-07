@@ -1,0 +1,4 @@
+{
+  "name": "ppt-master-user",
+  "install": "./scripts/install.sh"
+}
